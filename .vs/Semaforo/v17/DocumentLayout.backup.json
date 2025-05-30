@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|c:\\users\\douglas.gcribeiro\\source\\repos\\semaforo\\semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|solutionrelative:semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|solutionrelative:semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|c:\\users\\douglas.gcribeiro\\source\\repos\\semaforo\\semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|solutionrelative:semaforo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{372BA119-5EC4-4316-B0DA-7ED677D96B5D}|Semaforo\\Semaforo.csproj|C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\semaforo\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\Semaforo\\Form1.cs",
               "RelativeDocumentMoniker": "Semaforo\\Form1.cs",
               "ToolTip": "C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\Semaforo\\Form1.cs",
               "RelativeToolTip": "Semaforo\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswDwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:58:20.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\douglas.gcribeiro\\source\\repos\\Semaforo\\Semaforo\\Form1.cs",
               "RelativeDocumentMoniker": "Semaforo\\Form1.cs",

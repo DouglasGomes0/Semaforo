@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timTemporizador = new System.Windows.Forms.Timer(this.components);
             this.btnLigar = new System.Windows.Forms.Button();
             this.btnDesligar = new System.Windows.Forms.Button();
@@ -143,6 +144,7 @@
             this.Controls.Add(this.btnDesligar);
             this.Controls.Add(this.btnLigar);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

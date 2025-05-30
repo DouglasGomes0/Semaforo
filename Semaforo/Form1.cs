@@ -15,7 +15,7 @@ namespace Semaforo
         public Form1()
         {
             InitializeComponent();
-            timTemporizador.Stop();
+            timTemporizador.Stop(); //para o timer começar desligado\\
         }
         private int estado;
         private void timTemporizador_Tick(object sender, EventArgs e)
@@ -25,38 +25,39 @@ namespace Semaforo
              estado++; 
                 
 
-                if (estado == 1)
+                if (estado == 1) //o estado 1 remete ao primeiro tick\\
                 {
                     pibVermelho.Visible = true;
                     pibAmarelo.Visible = false;
                     pibVerde.Visible = false;
                     
                 }
-                if (estado == 2)
+                if (estado == 2)//o estado 2 remete ao segundo tick\\
                 {
                     pibVermelho.Visible = false;
                     pibAmarelo.Visible = false;
                     pibVerde.Visible = true;
                     
                 }
-                if (estado == 3)
+                if (estado == 3)//o estado 3 remete ao terceiro tick\\
                 {
                     pibVermelho.Visible = false;
                     pibAmarelo.Visible = true;
                     pibVerde.Visible = false;
-                    estado = 0;
+                    estado = 0;//retornar ao primeiro tick, fazendo loop\\
 
                 }
             
         }
 
-        private void btnLigar_Click(object sender, EventArgs e)
+        private void btnLigar_Click(object sender, EventArgs e)//botão para começar o timer\\
         {
             timTemporizador.Start();
         }
 
-        private void btnDesligar_Click(object sender, EventArgs e)
+        private void btnDesligar_Click(object sender, EventArgs e)//botão que para o timer\\
         {
+            //para remover as cores do semáforo ao parar\\
             timTemporizador.Stop();
             pibVermelho.Visible = false;
             pibAmarelo.Visible = false;
